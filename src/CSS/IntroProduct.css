@@ -1,0 +1,23 @@
+.intro-product {
+    display: flex;
+    height: 35vw; /* Adjust this percentage as needed */
+    background-image: url(https://cdn.discordapp.com/attachments/445928139021877259/1188400911836532846/bondbackground.png?ex=659a6398&is=6587ee98&hm=bf28f60ff082a8a1dc727f42e4b843ee98d48096730a0aa17749472fdb734756&);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #661113;
+    font-size: 3vw;
+    align-items: left;
+    text-align: left;
+  }
+
+.intro_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.brandname{
+    font-size: 5vw;
+}

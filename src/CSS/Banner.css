@@ -1,0 +1,41 @@
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner_container{
+    width: 100%;
+    margin-bottom: -22%;
+}
+.banner_info{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -28vw;
+    margin-right: 60%;
+    flex-direction: column;
+}
+.bannerlogo{
+    width:70%;
+}
+.bannerlogoname{
+    display: flex;
+    color: #0B4026;
+    font-size: 3vw;
+    position: relative;
+    align-items: left;
+    text-align: left;
+    left: -5vw;
+    margin-top: 3vw;
+}
+.bannerbrandinfo{
+    display: flex;
+    color: #0B4026;
+    font-size: 3vw;
+    position: relative;
+    align-items: left;
+    text-align: left;
+    left: 2vw;
+}

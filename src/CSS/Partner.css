@@ -1,0 +1,24 @@
+.partner{
+    font-size: 30px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.partner_warp{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+    padding-top: 50px;
+}
+.partner_warp img{
+    width: 10vw;
+    
+}
+@media screen and (max-width: 761px) {
+    .partner_warp{
+        grid-auto-rows: 80px;
+    }
+}
